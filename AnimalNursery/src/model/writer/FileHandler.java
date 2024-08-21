@@ -25,7 +25,6 @@ public class FileHandler extends Writer {
             e.printStackTrace();
             return null;
         }
-        return null;
     }
 
     @Override

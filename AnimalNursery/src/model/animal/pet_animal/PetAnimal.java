@@ -12,4 +12,6 @@ public abstract class PetAnimal extends Animal {
     }
 
     public abstract void play();
+
+    public abstract Class<? extends PetAnimal> getType();
 }

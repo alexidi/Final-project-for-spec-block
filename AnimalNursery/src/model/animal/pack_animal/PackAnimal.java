@@ -11,4 +11,6 @@ public abstract class PackAnimal extends Animal {
     }
 
     public abstract void carryLoads();
+
+    public abstract Class<? extends Animal> getType();
 }

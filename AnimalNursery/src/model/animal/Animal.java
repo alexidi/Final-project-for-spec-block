@@ -46,7 +46,8 @@ public abstract class Animal implements Serializable {
         commands.add(command);
     }
 
-    public void makeSound();
+    public void makeSound() {
+    }
 
     private abstract Class<? extends Animal> getType();
 
