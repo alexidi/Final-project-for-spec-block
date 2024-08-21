@@ -30,6 +30,6 @@ public class FileHandler extends Writer {
 
     @Override
     public void setPath(String path) {
-        this.path = path;
+        this.filePath = filePath;
     }
 }
